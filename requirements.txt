@@ -1,0 +1,21 @@
+# Core ML & Data Handling
+torch
+numpy
+pandas
+xarray
+rasterio
+scipy
+
+# Image Augmentation
+albumentations
+
+# Deep Learning Framework (per lo script di inferenza)
+tensorflow
+
+# Plotting & Visualization
+matplotlib
+tqdm
+
+# Utilities
+# netcdf4 è richiesto da xarray per leggere i file .nc
+netcdf4
