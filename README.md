@@ -55,14 +55,14 @@ This work builds upon foundational research and utilizes powerful open-source to
 
 -   **SR4RS Framework (for Super-Resolution Model):**
     -   The pre-trained model used for image upscaling is from the SR4RS framework.
-    -   **Software:** [SR4RS on GitHub](https://github.com/remicresson/sr4rs) by Rémi Cresson.
-    -   **Paper:** Cresson, R. (2022). "SR4RS: A Tool for Super Resolution of Remote Sensing Images". *Journal of Open Research Software*, 10(1). [DOI: 10.5334/jors.369](http.doi.org/10.5334/jors.369).
+    -   **Software:** [SR4RS on GitHub](https://github.com/remicres/sr4rs) by Rémi Cresson.
+    -   **Paper:** Cresson, R. (2022). "SR4RS: A Tool for Super Resolution of Remote Sensing Images". *Journal of Open Research Software*, 10(1). [DOI: 10.5334/jors.369](http://doi.org/10.5334/jors.369).
 
 -   **UNet3DMultitask Architecture (for Segmentation Model):**
     -   The segmentation model architecture is based on the concepts presented in the "Tackling fluffy clouds" paper.
     -   **Paper:** Foivos I. Diakogiannis, et al. (2024). "Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 image".
     -   **Source:** [arXiv:2409.13568](https://arxiv.org/abs/2409.13568).
-    -   *Nota: Aggiungi qui il link al repository del loro codice se lo hai usato.*
+    -   **Software** [tfcl on Github] (https://github.com/feevos/tfcl/tree/master)
 
 ## License
 
