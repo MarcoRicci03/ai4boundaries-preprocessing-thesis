@@ -12,7 +12,7 @@ This repository is organized into the following main directories:
 
 -   **/sr4rs/**: Contains the script (`infer_nc_all.py`) developed to perform super-resolution on the original NetCDF image files. This script utilizes the pre-trained model from the SR4RS framework to upscale images from 10m to 2.5m resolution.
 -   **/masks_4x_code/**: Includes the Python scripts responsible for the 4x upscaling of the segmentation masks. This process generates high-resolution ground truth masks from the original vector data to match the super-resolved images, avoiding the pitfalls of traditional raster interpolation.
--   **/ai4b/**: This directory likely contains the code related to the `UNet3DMultitask` model, including scripts for data loading, training, and validation on both the original and the preprocessed datasets. *(Nota: puoi modificare questa descrizione se la cartella `ai4b` contiene altro)*.
+-   **/ai4b/**: This directory likely contains the code related to the `UNet3DMultitask` model, including scripts for data loading, training, and validation on both the original and the preprocessed datasets. 
 
 ## Experimental Pipeline
 
@@ -63,10 +63,6 @@ This work builds upon foundational research and utilizes powerful open-source to
     -   **Paper:** Foivos I. Diakogiannis, et al. (2024). "Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 image".
     -   **Source:** [arXiv:2409.13568](https://arxiv.org/abs/2409.13568).
     -   **Software** [tfcl on Github] (https://github.com/feevos/tfcl/tree/master)
-
-## License
-
-The code written for this thesis is released under the **BSD 3-Clause License**. Please see the `LICENSE` file for more details. The third-party software components used in this project are subject to their original licenses, as detailed in the Acknowledgments section.
 
 ## How to Cite
 
