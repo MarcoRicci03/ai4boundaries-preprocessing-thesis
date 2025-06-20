@@ -40,7 +40,6 @@ To set up the environment and run the scripts, follow these steps:
     ```
 
 3.  **Run the pipeline:**
-    *(Fornisci qui un esempio di come avviare i tuoi script principali)*
     ```bash
     # Esempio per lanciare la super-risoluzione
     python sr4rs/infer_nc_all.py --gpu 0 --model_dir path/to/sr4rs_model --input_dir path/to/lr_images --output_path path/to/sr_images
