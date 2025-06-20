@@ -2,7 +2,7 @@
 
 # Preprocessing and Super-Resolution for the AI4Boundaries Dataset
 
-This repository contains the code and methodologies developed for the Bachelor's thesis "Preprocessing, super-risoluzione e ottimizzazione delle maschere del dataset AI4Boundaries" by Marco Ricci, Università degli Studi dell'Insubria (A.A. 2024-2025).
+This repository contains the code and methodologies developed for the joint Bachelor's thesis project by Marco Ricci ("Preprocessing, super-risoluzione e ottimizzazione delle maschere del dataset AI4Boundaries") and Paolo Ficara ("Modelli di Super-Resolution di Immagini Sentinel-2 per il Miglioramento della Segmentazione dei Confini Agricoli"), Università degli Studi dell'Insubria (A.A. 2024-2025).
 
 The primary goal of this project is to enhance the AI4Boundaries dataset by applying super-resolution techniques to Sentinel-2 satellite imagery and developing a robust pipeline for upscaling the corresponding segmentation masks. The hypothesis is that improving the spatial quality of the input data can lead to more accurate and detailed delineation of agricultural field boundaries.
 
@@ -65,6 +65,8 @@ This work builds upon foundational research and utilizes powerful open-source to
 
 ## How to Cite
 
-If you find this work useful in your research, please consider citing the thesis:
+If you find this work useful in your research, please consider citing the theses:
 
 > Ricci, M. (2025). *Preprocessing, super-risoluzione e ottimizzazione delle maschere del dataset AI4Boundaries*. Bachelor's Thesis, Università degli Studi dell'Insubria, Como, Italy.
+
+> Ficara, P. (2025). *Modelli di Super-Resolution di Immagini Sentinel-2 per il Miglioramento della Segmentazione dei Confini Agricoli*. Bachelor's Thesis, Università degli Studi dell'Insubria, Como, Italy.
